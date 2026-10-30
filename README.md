@@ -1,5 +1,5 @@
 # Filter-a-SQL-query
-- ## Applying basic filters to SQL queries to retrieve information from a MariaDB database
+### Applying basic filters to SQL queries to retrieve information from a MariaDB database
 # Task 1. List all organization machines - In this task, we need to get a list of all organization machines and their operating systems. The data is contained in the machines table.
 ## Run a SQL query to retrieve only the device_id and operating_system columns from the machines table.
 - SELECT device_id, operating_system
