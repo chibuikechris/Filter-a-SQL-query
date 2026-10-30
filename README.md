@@ -29,8 +29,8 @@
     <img width="433" height="189" alt="task 3b" src="https://github.com/user-attachments/assets/d0f62578-b3c6-4096-a221-dd94ab53be28" />
 
 
-  - ## Task 4. Identify employee machines - In this task, we need to obtain certain employee and computer information
-  - Write a query to identify which employee uses the office in 'South-109'. (The data must be returned from the office column in the employees table.)
+## Task 4. Identify employee machines - In this task, we need to obtain certain employee and computer information
+### Write a query to identify which employee uses the office in 'South-109'. (The data must be returned from the office column in the employees table.)
   - SELECT *
     FROM employees
     WHERE office = 'South-109';
