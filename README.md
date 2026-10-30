@@ -1,5 +1,5 @@
 # Filter-a-SQL-query
-- applying basic filters to SQL queries to retrieve information from a MariaDB database
+- ## Applying basic filters to SQL queries to retrieve information from a MariaDB database
 # Task 1. List all organization machines - In this task, we need to get a list of all organization machines and their operating systems. The data is contained in the machines table.
 ## Run a SQL query to retrieve only the device_id and operating_system columns from the machines table.
 - SELECT device_id, operating_system
@@ -7,7 +7,7 @@
  <img width="430" height="142" alt="task 1" src="https://github.com/user-attachments/assets/326874e1-350c-4d2f-8d8a-2dcd7d666137" />
 
 
-# Task 2. Retrieve a list of the machines with OS 2 - In this task, we need to obtain a list of all machines with the 'OS 2' operating system because these machines need an update.
+## Task 2. Retrieve a list of the machines with OS 2 - In this task, we need to obtain a list of all machines with the 'OS 2' operating system because these machines need an update.
 - Select all the records from the machines table with a value of 'OS 2' in the operating_system column
 - SELECT *
   FROM machines
@@ -22,7 +22,7 @@
   <img width="439" height="215" alt="task 3" src="https://github.com/user-attachments/assets/26e99c1c-0c2b-4368-a4b0-c6cb0a627101" />
 
   
-  - # Modify the previous query so that it returns employees who are in the 'Sales' department
+  - ## Modify the previous query so that it returns employees who are in the 'Sales' department
   - SELECT *
     FROM employees
     WHERE department ='Sales';
@@ -37,7 +37,7 @@
     <img width="440" height="132" alt="task4" src="https://github.com/user-attachments/assets/dcf8cd58-657d-4a3c-ad5f-938afb6e45db" />
 
  
-# Modify the query you used in the previous step so that it returns information on all the employees in the 'South' building. Use the LIKE operator with % in this query.
+## Modify the query you used in the previous step so that it returns information on all the employees in the 'South' building. Use the LIKE operator with % in this query.
 - SELECT *
   FROM employees
   WHERE office LIKE 'South%';
