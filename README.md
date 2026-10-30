@@ -7,8 +7,8 @@
  <img width="430" height="142" alt="task 1" src="https://github.com/user-attachments/assets/326874e1-350c-4d2f-8d8a-2dcd7d666137" />
 
 
-## Task 2. Retrieve a list of the machines with OS 2 - In this task, we need to obtain a list of all machines with the 'OS 2' operating system because these machines need an update.
-- Select all the records from the machines table with a value of 'OS 2' in the operating_system column
+# Task 2. Retrieve a list of the machines with OS 2 - In this task, we need to obtain a list of all machines with the 'OS 2' operating system because these machines need an update.
+## Select all the records from the machines table with a value of 'OS 2' in the operating_system column
 - SELECT *
   FROM machines
   WHERE operating_system = 'OS 2';
