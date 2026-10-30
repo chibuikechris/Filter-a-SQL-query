@@ -22,7 +22,7 @@
   <img width="439" height="215" alt="task 3" src="https://github.com/user-attachments/assets/26e99c1c-0c2b-4368-a4b0-c6cb0a627101" />
 
   
-  - ### Modify the previous query so that it returns employees who are in the 'Sales' department
+### Modify the previous query so that it returns employees who are in the 'Sales' department
   - SELECT *
     FROM employees
     WHERE department ='Sales';
